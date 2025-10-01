@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+
+h1{
+text-align: center;
+color: red; 
+margin-bottom: 20px;
+
+}
+
+.Searchbox{
+     display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#pokemonInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid yellow; 
+}
+
+#searchBtn {
+    
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    
+}
+
+#searchBtn:hover {
+    background-color: rgba(0, 0, 255, 0.501);
+}
+
+#pokemonCard {
+    background: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+}
+
+#pokemonCard img {
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+#pokemonCard h2 {
+    text-transform: capitalize;
+  
+}
+
+#pokemonCard p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+#pokemonCard button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    
+}
+
+#pokemonCard button:hover {
+    background-color: rgba(255, 0, 0, 0.544);
+}
